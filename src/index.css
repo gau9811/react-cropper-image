@@ -1,0 +1,22 @@
+
+
+.modal-content {
+    position: relative;
+    display: flex;
+    /* margin: auto; */
+    flex-direction: column;
+    /* width: 300%!important; */
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 900px!important;
+    margin: 1.75rem auto;
+  }
+}
